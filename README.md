@@ -41,6 +41,29 @@
 
 すべてのスクリプトは標準ライブラリのみで動作します（追加インストール不要）。
 
+### 更新フロー
+
+```mermaid
+flowchart LR
+    GCal["Google Calendar"]
+    CSV["calendar.csv"]
+    CSV2["calendar.csv\n(修正済み)"]
+    ICS["calendar.ics"]
+    GH["GitHub"]
+    Excel["Excel\n(Power Query)"]
+    GCal2["Google Calendar\n(購読)"]
+    iCal["iPad/iPhone\nカレンダー"]
+
+    GCal -->|"① update_calendar.py"| CSV
+    CSV -->|"② 手動修正\n個人の休日を追加"| CSV2
+    CSV2 -->|"③ csv2ics.py"| ICS
+    CSV2 -->|"④ git push"| GH
+    ICS -->|"④ git push"| GH
+    GH -->|"raw URL"| Excel
+    GH -->|"webcal://"| GCal2
+    GH -->|"webcal://"| iCal
+```
+
 ### 1. Google Calendar と同期
 
 ```bash
