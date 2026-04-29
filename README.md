@@ -64,7 +64,7 @@ flowchart LR
     GH -->|"webcal://"| iCal
 ```
 
-### 1. Google Calendar と同期
+### ① Google Calendar と同期
 
 ```bash
 python3 update_calendar.py
@@ -75,13 +75,17 @@ python3 update_calendar.py
 - 祝日名が `休日` のエントリは個人の独自休日として**同期対象外**
 - 追加・名称変更・Google Calendar に存在しないエントリを表示してから更新
 
-### 2. ICS ファイルを再生成
+### ② 個人の休日を追記
+
+`calendar.csv` に個人の休日を追記(手動)
+
+### ③ ICS ファイルを再生成
 
 ```bash
 python3 csv2ics.py
 ```
 
-### 3. コミット・プッシュ
+### ④ コミット・プッシュ
 
 ```bash
 git add calendar.csv calendar.ics
