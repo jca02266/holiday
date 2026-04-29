@@ -67,9 +67,11 @@ git push
 
 ### iPad / iPhone の標準カレンダーに登録
 
-Safari で以下の URL を開くと「カレンダーを登録しますか？」ダイアログが表示されます。「登録」をタップするだけで完了です。
+iPad / iPhone の Safari で以下の URL を開くと「カレンダーを登録しますか？」ダイアログが表示されます。「登録」をタップするだけで完了です。
 
-[iPad / iPhone カレンダーに追加する](webcal://raw.githubusercontent.com/jca02266/holiday/main/calendar.ics)
+```
+webcal://raw.githubusercontent.com/jca02266/holiday/main/calendar.ics
+```
 
 ## 更新方針
 
