@@ -65,6 +65,12 @@ git push
 
 > **Note**: Google Calendar の購読カレンダーは自動更新されますが、反映まで最大 24 時間かかる場合があります。
 
+### iPad / iPhone の標準カレンダーに登録
+
+Safari で以下の URL を開くと「カレンダーを登録しますか？」ダイアログが表示されます。「登録」をタップするだけで完了です。
+
+[iPad / iPhone カレンダーに追加する](webcal://raw.githubusercontent.com/jca02266/holiday/main/calendar.ics)
+
 ## 更新方針
 
 年次で手動更新します。**`calendar.csv` のみを更新**し、その後 `csv2ics.py` を実行して `calendar.ics` を再生成してからコミット・プッシュしてください。
