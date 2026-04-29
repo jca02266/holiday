@@ -14,6 +14,8 @@ def csv_to_ics(src: Path, dst: Path) -> None:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
         f"PRODID:{PRODID}",
         f"X-WR-CALNAME:{CALNAME}",
         "X-WR-TIMEZONE:Asia/Tokyo",
