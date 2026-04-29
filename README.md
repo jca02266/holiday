@@ -61,7 +61,7 @@ git push
 
 以下のリンクをクリックすると、Google Calendar の「URL で追加」画面が開きます。
 
-[Google Calendar に追加する](https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fjca02266%2Fholiday%2Fmain%2Fcalendar.ics)
+[Google Calendar に追加する](https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fjca02266.github.io%2Fholiday%2Fcalendar.ics)
 
 > **Note**: Google Calendar の購読カレンダーは自動更新されますが、反映まで最大 24 時間かかる場合があります。
 
@@ -70,7 +70,7 @@ git push
 iPad / iPhone の Safari で以下の URL を開くと「カレンダーを登録しますか？」ダイアログが表示されます。「登録」をタップするだけで完了です。
 
 ```
-webcal://raw.githubusercontent.com/jca02266/holiday/main/calendar.ics
+webcal://jca02266.github.io/holiday/calendar.ics
 ```
 
 ## 更新方針
