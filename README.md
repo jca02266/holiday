@@ -59,13 +59,9 @@ git push
 
 ### 2. Google Calendar に登録
 
-1. Google Calendar を開き、左側の「他のカレンダー」の `+` をクリック
-2. 「URL で追加」を選択
-3. 以下の URL を入力して「カレンダーを追加」
+以下のリンクをクリックすると、Google Calendar の「URL で追加」画面が開きます。
 
-```
-https://raw.githubusercontent.com/jca02266/holiday/main/calendar.ics
-```
+[Google Calendar に追加する](https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fjca02266%2Fholiday%2Fmain%2Fcalendar.ics)
 
 > **Note**: Google Calendar の購読カレンダーは自動更新されますが、反映まで最大 24 時間かかる場合があります。
 
